@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+#panel_video_inicio{
+
+}
+#panel_video_inicio {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 400px;
+	top: 60px;
+	overflow: hidden;
+}
+#panel_video_inicio video{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	bottom: 0;
+}
+#descripcion_inicio{
+	position: relative;
+	width: 98%;
+	margin: 5px;
+	padding: 5px;
+	height: 100%;
+	top: 60px;
+	display: inline-block;
+}
+#descripcion_inicio h1{
+	text-align: center;
+	justify-content: center;
+	margin: 2px;
+	padding: 5px;
+	font-family: 'Italianno', cursive;
+	font-size: 50px;
+	color: white;
+}
+#descripcion_inicio b{
+	text-align: center;
+	justify-content: center;
+	display: inline-block;;
+	font-size: 16px;
+	margin: 2px 5px 10px 5px;
+	padding: 2px 5px 10px 5px;
+	color: white;
+}
+#borde{
+	width: 100%;
+}
+#descripcion_inicio #articulos_inicio{
+	display: flex;
+	width: 98%;
+	margin: 5px;
+	padding: 5px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#descripcion_inicio #articulos_inicio article{
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	}
+#descripcion_inicio #articulos_inicio h3{
+	text-align: center;
+	justify-content: center;
+	margin: 10px;
+	padding: 5px;
+	font-family: 'Italianno', cursive;
+	color: white;
+	font-size: 34px;
+}
+
+#descripcion_inicio #articulos_inicio img{
+	position: relative;
+	justify-content: center;
+	width: 300px;
+	margin: 5px;
+	display: block;
+	transition: all 0.9s;
+    border-radius: 4%;
+}
+#descripcion_inicio #articulos_inicio img:hover{
+	transform: scale(1.1);
+}
+@media(max-width: 1065px){
+	#descripcion_inicio #articulos_inicio img{
+		width: 250px;
+	}
+	}
+@media(max-width: 768px){
+	#descripcion_inicio #articulos_inicio img{
+		width: 200px;
+	}
+}

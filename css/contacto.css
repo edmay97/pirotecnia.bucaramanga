@@ -1,0 +1,198 @@
+
+#panel_contacto{
+	position: relative;
+	width: 98%;
+	height: 100%;
+	top: 45px;
+}
+#contacto_mapa{
+	position: relative;
+	width: 100%;
+    top: 0;
+    margin: 5px 5px 20px 5px;
+	align-items: center;
+}
+#contacto_mapa h2{
+    position: relative;
+    display: block;
+	text-align: center;
+    top: 0;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Italianno', cursive;
+    color: white;
+    font-size: 50px;
+}
+#contacto_mapa #mapa_ubicacion{
+    position: relative;
+	top: 10px;
+	width: 80%;
+    left: 10%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#contacto_mapa p{
+    position: relative;
+    display: block;
+    top: 0;
+    margin: 1px;
+    padding: 10px;
+	text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#panel_formulario{
+	position: relative;
+    display: flex;
+    flex-wrap: wrap;
+	width: 100%;
+	right: 0;
+    margin: 10px 0 0 0 ;
+}
+#titulo_contactenos{
+    position: relative;
+    text-align: center;
+    margin: 20px 5px 5px 5px;
+    font-family: 'Italianno', cursive;
+    color: white;
+    font-size: 32px;
+    top: 10px;
+}
+.formulario{
+    margin: 5px 0px 10px 10px;
+    width: 60%;
+    
+}
+#panel_label{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    float: left;
+    margin: 0 0 0 2px ;
+}
+#panel_input{
+    position: relative;
+    display: inline-grid;
+    left: 0;
+    width: 80% ;
+}
+.label_formulario{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin: 8px;
+    padding: 2px;
+    display: block;
+    float: left;
+}
+.input_formulario{
+    margin: 6px;
+    text-align: left;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 2px;
+    font-size: 18px;
+    width: 100%;
+}
+.textarea_formulario{
+    margin: 6px;
+    text-align: left;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 5px;
+    float: left;
+    font-size: 18px;
+    width: 100%;
+}
+#input_submit{
+    margin: auto;
+    width: 80px;
+    height: 30px
+}
+#panel_formulario img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    margin: 0 20px 50px 20px;
+    transition: all 0.5s;
+    ustify-content: center;
+}
+#panel_formulario img:hover{
+    transform: scale(1.3);
+}
+@media(max-width: 800px){
+  #panel_formulario img{
+    justify-content: center;
+    margin: auto;
+  }  
+  #panel_input{
+    position: relative;
+    display: inline-grid;
+    left: 0;
+    width: 50% ;
+    margin: 0 0 0 5px;
+}
+.input_formulario{
+    margin: 6px;
+    text-align: left;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 2px;
+    font-size: 18px;
+    width: 230px;
+}
+.textarea_formulario{
+    margin: 6px;
+    text-align: left;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 5px;
+    float: left;
+    font-size: 18px;
+    width: 230px;
+}
+@media(max-width: 350px){
+  #panel_formulario img{
+    justify-content: center;
+    margin: auto;
+  }  
+  #panel_input{
+    position: relative;
+    display: inline-grid;
+    left: 0;
+    width: 30% ;
+    margin: 0 0 0 1px;
+}
+.input_formulario{
+    margin: 6px;
+    text-align: left;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 2px;
+    font-size: 18px;
+    width: 160px;
+}
+.textarea_formulario{
+    margin: 6px;
+    text-align: left;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 5px;
+    float: left;
+    font-size: 18px;
+    width: 160px;
+}
+.label_formulario{
+    font-size: 14px;
+    }
+}

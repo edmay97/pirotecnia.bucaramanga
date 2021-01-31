@@ -1,0 +1,146 @@
+*{
+    font-size: 20px;
+}
+#descripcion{
+	position: relative;
+	width: 98%;
+	top: 50px;
+	display: inline-block;
+	margin: 0,0,15px,0;
+	left: 1%;
+}
+#descripcion h1{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin: 20px 0 10px 0;
+	font-family: 'Italianno', cursive;
+	font-size: 50px;
+	color: white;
+}
+#descripcion #descripcion_eventos{
+	text-align: center;
+	justify-content: center;
+	display: inline-block;;
+	font-size: 16px;
+	margin: 2px 5px 10px 5px;
+	padding: 2px 5px 10px 5px;
+	color: white;
+}
+#descripcion #borde{
+	width: 100%;
+}
+#panel_eventos{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	top: 50px;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+#panel_eventos div{
+	position: relative;;
+	justify-content: center;
+	width: 300px;
+	margin: 15px 10px 10px 10px;
+	overflow: hidden;
+}
+#panel_eventos div div{
+    position: relative;
+	display: block;
+    width: 300px;
+    height: 300px;
+	justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 5%;
+}
+ h2{
+	text-align: center;
+	margin: 15px;
+	font-family: 'Italianno', cursive;
+	color: white;
+	font-size: 32px;
+}
+#panel_eventos p{
+	width: 100%;
+	right: 0;
+	top: 0;
+	text-align: center;
+	margin: 5px;
+	color: white;
+	font-size: 16px;
+}
+
+#panel_eventos img{
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 300px;
+	transition: all 0.5s;
+
+}
+#panel_eventos img:hover{
+	transform: scale(1.2);
+}
+.modal{
+display: none;
+}
+.modal:target{
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100000;
+}
+.modal h3{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin: 5px 0;
+}
+#imagen_galeria{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+#imagen_galeria a{
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+#imagen_galeria img{
+	position: relative;
+	width: 400px;
+	height: 95%;
+	max-width: 100%;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	border: 2px solid white;
+	}
+#cerrar_galeria{
+	display: block;
+	background: white;
+	width: 25px;
+	height: 25px;
+	margin: 10px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	padding: 5px;
+	border-radius: 50px;
+	line-height: 25px;
+}
