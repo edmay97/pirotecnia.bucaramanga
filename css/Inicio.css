@@ -18,12 +18,10 @@
 }
 #descripcion_inicio{
 	position: relative;
-	width: 98%;
-	margin: 5px;
-	padding: 5px;
-	height: 100%;
+	padding: 10px;
 	top: 60px;
 	display: inline-block;
+	background: yellow;
 }
 #descripcion_inicio h1{
 	text-align: center;
