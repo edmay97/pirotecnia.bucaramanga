@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
-
 #panel_video_inicio {
-		top: 60px;
-		height:0px;
-		width:100%;
-		padding-top:56.25%; /* Relación: 16/9 = 56.25% */
-		position:relative;
-		overflow: hidden;
-	}
+	top: 60px;
+	height:0px;
+	width:100%;
+	padding-top:56.25%;
+	position:relative;
+	overflow: hidden;
+}
 #panel_video_inicio video{
-		position:absolute;
-		height:100%;
-		width:100%;
-		top:0px;
-		left:0px;
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
 }
 #descripcion_inicio{
 	position: relative;
@@ -64,7 +63,6 @@
 	color: white;
 	font-size: 34px;
 }
-
 #descripcion_inicio #articulos_inicio img{
 	position: relative;
 	justify-content: center;
