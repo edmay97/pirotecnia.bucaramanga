@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
 #panel_video_inicio {
 	position: relative;
 	margin: 0;
@@ -8,7 +9,7 @@
 	top: 60px;
 	overflow: hidden;
 }
-#panel_video_inicio img{
+#panel_video_inicio video{
 	position: absolute;
 	margin: 0;
 	padding: 0;
